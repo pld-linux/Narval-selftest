@@ -5,29 +5,25 @@ Summary(pl):	Modu³ testowy dla Narvala
 Name:		Narval-%{short_name}
 Version:	20011016
 Release:	1
-Source0:	ftp://ftp.logilab.org/pub/narval/applications/%{short_name}-%{version}.npm
-# Source0-md5:	8eafb69ffc27f2bac9136f8f7475be43
 License:	GPL
 Group:		Applications
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+Source0:	ftp://ftp.logilab.org/pub/narval/applications/%{short_name}-%{version}.npm
+# Source0-md5:	8eafb69ffc27f2bac9136f8f7475be43
+URL:		http://www.logilab.org/narval/app.html
 Requires:	Narval
-Url:		http://www.logilab.org/narval/app.html
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-selftest is the test module for Narval.
-
+Selftest is the test module for Narval.
 It provides the actions and transformations necessary to run the
 validation tests for the Narval kernel.
 
 %description -l pl
-selftest to modu³ testuj±cy dla Narvala.
-
+Selftest to modu³ testuj±cy dla Narvala.
 Dostarcza dzia³añ i przekszta³ceñ koniecznych do wykonania testów
 poprawno¶ci kernela Narvala.
 
 %prep
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
