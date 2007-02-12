@@ -1,7 +1,7 @@
 %define short_name selftest
 
 Summary:	Narval selftest module
-Summary(pl):	Modu≥ testowy dla Narvala
+Summary(pl.UTF-8):   Modu≈Ç testowy dla Narvala
 Name:		Narval-%{short_name}
 Version:	20011016
 Release:	1
@@ -18,10 +18,10 @@ Selftest is the test module for Narval.
 It provides the actions and transformations necessary to run the
 validation tests for the Narval kernel.
 
-%description -l pl
-Selftest to modu≥ testuj±cy dla Narvala.
-Dostarcza dzia≥aÒ i przekszta≥ceÒ koniecznych do wykonania testÛw
-poprawno∂ci kernela Narvala.
+%description -l pl.UTF-8
+Selftest to modu≈Ç testujƒÖcy dla Narvala.
+Dostarcza dzia≈Ça≈Ñ i przekszta≈Çce≈Ñ koniecznych do wykonania test√≥w
+poprawno≈õci kernela Narvala.
 
 %prep
 
