@@ -1,7 +1,7 @@
 %define short_name selftest
 
 Summary:	Narval selftest module
-Summary(pl.UTF-8):   Moduł testowy dla Narvala
+Summary(pl.UTF-8):	Moduł testowy dla Narvala
 Name:		Narval-%{short_name}
 Version:	20011016
 Release:	1
